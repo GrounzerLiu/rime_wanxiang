@@ -7,7 +7,16 @@ name: compatible
 version: "LTS"
 sort: by_weight
 ...
+糖色	táng;mk;mk;mt;pd;oy;mk shǎi;db;db;db;xm;qc;eb	348
+又得	yòu;vn;vn;vd,ad;ry;cc;vn děi;rc;ic;xc;wk;tj;rc	421
+拂过	bì;ff;ff;ff;ut;rx;ff guò;zc;zc;zc;ku;fp;zc	476
+粘着	zhān;mv;mk;mv;pd;oh;mk zhe;yo;yo;yo;gq;ud;em	510
+当时	dàng;xe;xe;xx;yb;iv;ea shí;oc;oc;oc;ok;jf;oc
+当日	dàng;xe;xe;xx;yb;iv;ea rì;ka;ka;aa,or,ri;or;jj;wa
+当年	dàng;xe;xe;xx;yb;iv;ea nián;pf;pl;ra,pa;ev;rh;pa
+当头	dàng;xe;xe;xx;yb;iv;ea tóu;dd;dd;dd;wm;ud;dd
 铁骑	tiě;jf;ju;ju;zh;qr;ju qí;mk;mk;mq;nz;cd;mk
+垫圈	diàn;ft;ft;tv;ug;rv;ft juàn;kv;kv;kj;rz;lu;wv
 大黄	dài;ar;un;ad;md;dd;an huáng;cb;cb;ad,cb;nh;am;cb
 调调	tiáo;yk;yk;yv;sd;ym;yk tiáo;yk;yk;yv;sd;ym;yk	462
 明朝	míng;oo;oo;oo;ov;je;oo zhāo;uo;uo;ou,uo;nv;fj;uo	326
@@ -171,8 +180,8 @@ sort: by_weight
 多行	duō;xx;xx;xx;ll;qq;xx háng;rd;ii;xd,xi;px;tf;rd	491
 不了了	bù;ab;ad;ad,ax;cb;gi;ad liǎo;al;vl;aa,vu;rl;bn;vv liǎo;al;vl;aa,vu;rl;bn;vv	542
 不了了	bù;ab;ad;ad,ax;cb;gi;ad liǎo;al;vl;aa,vu;rl;bn;vv le;al;vl;aa,vu;rl;bn;vv	413
-爿字旁	cháng;vl;vp;aa,pj,vu;ap;nh;va zì;bz;bz;bz;wh;pb;gz páng;wf;wf;wf,lf;il;up;wf
-爿字旁	piàn;vl;vp;aa,pj,vu;ap;nh;va zì;bz;bz;bz;wh;pb;gz páng;wf;wf;wf,lf;il;up;wf
+爿字旁	chuáng;vl;vp;aa,pj,vu;ap;nh;va zì;bz;bz;bz;wh;pb;gz páng;wf;wf;wf,lf;il;up;wf
+爿字旁	pán;vl;vp;aa,pj,vu;ap;nh;va zì;bz;bz;bz;wh;pb;gz páng;wf;wf;wf,lf;il;up;wf
 肚子	dù;ot;ot;ot;vg;ef;ot zi;la;va;aa,vh;hi;bb;va	650
 肚子	dǔ;ot;ot;ot;vg;ef;ot zi;la;va;aa,vh;hi;bb;va	312
 落了	là;ck;ck;cl;ls;ai;ck le;al;vl;aa,vu;rl;bn;vv	542
@@ -315,7 +324,6 @@ sort: by_weight
 炸鱼	zhá;hv;hv;hv;cw;ot;hv yú;da;da;da;wv;qg;ea	544
 炸鱼	zhà;hv;hv;hv;cw;ot;hv yú;da;da;da;wv;qg;ea	28
 长的	zhǎng;pn;pn;pd;pc;ta;pn de;bu;bu;bu;ui;rq;bu	919
-长相	zhǎng;pn;pn;pd;pc;ta;pn xiàng;mo;mo;mo;eq;sh;lm	429
 长牙	zhǎng;pn;pn;pd;pc;ta;pn yá;gp,ac;ap;ap;ly;ah;ap	583
 长牙	cháng;pn;pn;pd;pc;ta;pn yá;gp,ac;ap;ap;ly;ah;ap	384
 长芽	cháng;pn;pn;pd;pc;ta;pn yá;cy;cy;cy;ll;aa;cy	365

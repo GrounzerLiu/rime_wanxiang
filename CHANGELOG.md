@@ -1,5 +1,171 @@
 # Changelog
 
+## [11.3.1](https://github.com/amzxyz/rime_wanxiang/compare/v11.3.0...v11.3.1) (2025-08-21)
+
+
+### 📚 词库更新
+
+* 词库调整 ([59bcee9](https://github.com/amzxyz/rime_wanxiang/commit/59bcee9a86b7661826214c35888a7a37a576d28b))
+* 词库调整 ([56feae8](https://github.com/amzxyz/rime_wanxiang/commit/56feae82118ab81c1d66dbe2cb2719b98ebf0cc3))
+
+
+### 🔥 性能优化
+
+* **tips:** tips 数据初始化性能优化 ([d0b7e0e](https://github.com/amzxyz/rime_wanxiang/commit/d0b7e0e9c28fcd6bb4e8417c9dafc024653421b2))
+
+
+### 🐛 Bug 修复
+
+* 移除个别纠错异常编码 ([47cd0eb](https://github.com/amzxyz/rime_wanxiang/commit/47cd0eb64cd4ea8ea51b52ef0c71f613b359fd6c))
+
+## [11.3.0](https://github.com/amzxyz/rime_wanxiang/compare/v11.2.1...v11.3.0) (2025-08-20)
+
+
+### ✨ 新特性
+
+* **tips:** 支持通过配置禁用特定类型tips ([b092851](https://github.com/amzxyz/rime_wanxiang/commit/b0928510342be55fd70b0222aeb0247772887162))
+
+
+### 📚 词库更新
+
+* 增加一些常用词的emoji联想 ([c0943c4](https://github.com/amzxyz/rime_wanxiang/commit/c0943c4a425c6130fcbc011017ba5beb90a7fd7f))
+* 词库调整 ([d0951f8](https://github.com/amzxyz/rime_wanxiang/commit/d0951f8c88d4841cea75204babccdb10095eb490))
+* 词库调整 ([b4a34e7](https://github.com/amzxyz/rime_wanxiang/commit/b4a34e7bf5e0b887b491527904e5eeaa650d1ca1))
+
+
+### 🔥 性能优化
+
+* **tips:** 使用 Lua 5.2 的 bit32 库提升哈希计算效率 ([58a01e0](https://github.com/amzxyz/rime_wanxiang/commit/58a01e05dfbbfc181bd7d4a89b03d52649fb6302))
+
+
+### 💅 重构
+
+* **tips:** 使用独立的 userdb 管理数据库连接 ([117723e](https://github.com/amzxyz/rime_wanxiang/commit/117723e2e08fec3976e0489590cc8c6506df18d0))
+
+## [11.2.1](https://github.com/amzxyz/rime_wanxiang/compare/v11.2.0...v11.2.1) (2025-08-19)
+
+
+### 🐛 Bug 修复
+
+* 调整反查数据排序 ([406bab0](https://github.com/amzxyz/rime_wanxiang/commit/406bab0a79d92b8431ab00750b1ee4bafd2e992b))
+
+## [11.2.0](https://github.com/amzxyz/rime_wanxiang/compare/v11.1.5...v11.2.0) (2025-08-19)
+
+
+### ✨ 新特性
+
+* 笔画反查现在支持定义hspzn/hupvd可选 ([aeb183b](https://github.com/amzxyz/rime_wanxiang/commit/aeb183b2d7fca61b1805fe6545ae5b5ae026eb13))
+
+
+### 📚 词库更新
+
+* 词库调整 ([48be535](https://github.com/amzxyz/rime_wanxiang/commit/48be535dcbc8faf139791829ff425bb1b698a7af))
+* 词库调整 ([c8cc656](https://github.com/amzxyz/rime_wanxiang/commit/c8cc65693fccb81f48ba91b7d2b5c48b78af7bd0))
+
+
+### 🐛 Bug 修复
+
+* **lua:** luajit 兼容性 ([24c2c34](https://github.com/amzxyz/rime_wanxiang/commit/24c2c344e537cdc9a8a0907df17a2e37ccdaa423))
+* **typo_corrector:** 切换schema时的规则更新，并优化避免重复加载 ([6557b48](https://github.com/amzxyz/rime_wanxiang/commit/6557b4879526fe1b3116fa865a5ad7d30524f7f8))
+
+## [11.1.5](https://github.com/amzxyz/rime_wanxiang/compare/v11.1.4...v11.1.5) (2025-08-18)
+
+
+### 📚 词库更新
+
+* 词库精简 ([373ceca](https://github.com/amzxyz/rime_wanxiang/commit/373ceca7777abcfefc928a7edc38fcc4c7893124))
+* 词库调整 ([2e91a29](https://github.com/amzxyz/rime_wanxiang/commit/2e91a297706a53c4ed63541c8f33729a53c6eae2))
+
+
+### 🐛 Bug 修复
+
+* 计算器修复浮点问题 ([166c922](https://github.com/amzxyz/rime_wanxiang/commit/166c922d94a67e673855e88c2eaade32efb1af8c))
+
+## [11.1.4](https://github.com/amzxyz/rime_wanxiang/compare/v11.1.3...v11.1.4) (2025-08-17)
+
+
+### 📚 词库更新
+
+* 词库调整 ([4e03b9f](https://github.com/amzxyz/rime_wanxiang/commit/4e03b9f90ac71b7714f5c8ee4c0a16441a815570))
+
+
+### 🐛 Bug 修复
+
+* 纠错程序增加开关 ([8c91604](https://github.com/amzxyz/rime_wanxiang/commit/8c916042f7a8041c817138e190a4116d4a839c1f))
+
+## [11.1.3](https://github.com/amzxyz/rime_wanxiang/compare/v11.1.2...v11.1.3) (2025-08-16)
+
+
+### 🐛 Bug 修复
+
+* 修复纠错程序错误以及个别数据异常 ([9b16f0d](https://github.com/amzxyz/rime_wanxiang/commit/9b16f0d5188393146f65f28733857297ff34ed81))
+
+
+### 🏡 杂项
+
+* 更新 ([364ed40](https://github.com/amzxyz/rime_wanxiang/commit/364ed40354a5d060bc5faebdfd7c103254a64e47))
+
+## [11.1.2](https://github.com/amzxyz/rime_wanxiang/compare/v11.1.1...v11.1.2) (2025-08-16)
+
+
+### 📚 词库更新
+
+* 词库删减 ([bd4f444](https://github.com/amzxyz/rime_wanxiang/commit/bd4f4449ebef6971b62142bec17ab5ef8c2c6cdc))
+* 词库调整 ([bc8f1c7](https://github.com/amzxyz/rime_wanxiang/commit/bc8f1c77e5db0672d6550b53a95448ad45c88a16))
+
+
+### 🐛 Bug 修复
+
+* 五笔画去重 ([190486a](https://github.com/amzxyz/rime_wanxiang/commit/190486a5e67a52374c45bc82bb88e45650c4bccc))
+
+
+### 🏡 杂项
+
+* 更新版本 ([42cee67](https://github.com/amzxyz/rime_wanxiang/commit/42cee672a56d4e6db4054bad100a9d6def2620e4))
+
+## [11.1.1](https://github.com/amzxyz/rime_wanxiang/compare/v11.1.0...v11.1.1) (2025-08-16)
+
+
+### 🐛 Bug 修复
+
+* 移除部分纠错数据 ([d647ccf](https://github.com/amzxyz/rime_wanxiang/commit/d647ccfe875911a8a8be26b09531bfe2499a769d))
+
+
+### 🏡 杂项
+
+* 版本更新 ([f26dbb2](https://github.com/amzxyz/rime_wanxiang/commit/f26dbb2a26ac427038e64f50a5d8ca838f7e94d0))
+
+## [11.1.0](https://github.com/amzxyz/rime_wanxiang/compare/v11.0.0...v11.1.0) (2025-08-16)
+
+
+### ✨ 新特性
+
+* **lua:** 新增输入类型判断 ([2f93cbe](https://github.com/amzxyz/rime_wanxiang/commit/2f93cbe87475c65f26f56ec79ebb7668d160ef35))
+* 新增全拼纠错 ([e75a758](https://github.com/amzxyz/rime_wanxiang/commit/e75a7581d58a25024747e71d1bbd3c7bdc034561))
+
+
+### 📚 词库更新
+
+* 新增人世间、如愿 ([cd83cbd](https://github.com/amzxyz/rime_wanxiang/commit/cd83cbd2873892d4e213121aa4861a8c414afad8))
+* 词库调整 ([35a165c](https://github.com/amzxyz/rime_wanxiang/commit/35a165cfc945402e2a3e081e85318efc7c4dc7b3))
+* 词库调整 ([11f3ac8](https://github.com/amzxyz/rime_wanxiang/commit/11f3ac876c6c93655d63a50988f3d402f5ab82e6))
+* 词库调整 ([b7f7e28](https://github.com/amzxyz/rime_wanxiang/commit/b7f7e28acd0ba378eff3d92ced92a4c1c486fe0b))
+* 词库调整 ([433d4b1](https://github.com/amzxyz/rime_wanxiang/commit/433d4b14945451f5d7f3346d2de9982edca96b53))
+* 词库调整 ([268572b](https://github.com/amzxyz/rime_wanxiang/commit/268572b5cd557a80d45477ba496cdf64445019c3))
+* 调整小鹤相关辅助码 ([759451c](https://github.com/amzxyz/rime_wanxiang/commit/759451c0ef43552fbb793d95caf8d6492a772a46))
+
+
+### 🐛 Bug 修复
+
+* custom新增前置通用模糊音示例 ([da84bf7](https://github.com/amzxyz/rime_wanxiang/commit/da84bf706d51284f536527cfe02748bc956f06a3))
+* 为输入类型打上标记 ([88eaa58](https://github.com/amzxyz/rime_wanxiang/commit/88eaa58d1005000ca9599e8d7ea3d629579fc2a8))
+* 纠错现在可以按输入类型匹配需要加载的数据 ([c924846](https://github.com/amzxyz/rime_wanxiang/commit/c92484666589d16d66e499d1c4ffa588720b1eea))
+
+
+### 🏡 杂项
+
+* 修改说明 ([8a76468](https://github.com/amzxyz/rime_wanxiang/commit/8a76468bd5f60f80180d31617703deb6f69bddd4))
+
 ## [11.0.0](https://github.com/amzxyz/rime_wanxiang/compare/v10.1.0...v11.0.0) (2025-08-10)
 
 

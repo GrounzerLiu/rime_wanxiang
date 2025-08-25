@@ -7538,7 +7538,6 @@ sort: by_weight
 㝎	dìng;bv;bv;bv;wr;pp;	1
 奵	dīng;nd;nd;nd;ba;vs;	1
 掟	dìng;fz;dr,fr;fd;ut;rp;fr	1
-町	dīng;td;td;td;qa;ls;td	1
 甼	dīng;td;td;td;qa;ls;	1
 艼	dǐng;cd;cd;cd;la;as;	1
 釘	dìng;jd;jd;jd;za;qs;	1
@@ -7573,6 +7572,7 @@ sort: by_weight
 𩾚	dīng;dn;dn;dn,nd;ax;sw;	1
 𪔂	dǐng;vo;ov;;qa;hn;	1
 𫂫	dìng;;vc;;;;	1
+町	dīng;td;td;td;qa;ls;td	1
 丢	diū;pq;ps;pq,ps;tk;tf;pv	647
 丟	diū;aq;ws;pq;nk;gc;	343
 铥	diū;jq;js;jd;zk;qt;jv	285
@@ -15805,17 +15805,17 @@ sort: by_weight
 件	jiàn;rn;rn;rn;jq;wr;rn	800
 简	jiǎn;vo;vo;vj;ro;tu;vo	766
 健	jiàn;ry;rz;rj;ju;wv;rj	762
-荐	jiàn;cz;cz;cc;lh;ad;cz	758
-减	jiǎn;dk;dk;dx;wd;ud;dg	756
+键	jiàn;jy;jz;jj;zu;qv;jj	760
+减	jiǎn;dk;dk;dx;wd;ud;dg	758
 监	jiān;lm;lm;mv;pa;jt;am	747
 检	jiǎn;mq;ma;ma,mq;ef;sw;la	745
+尖	jiān;xd;xd;xd;ym;id;ad	745
+荐	jiàn;cz;cz;cc;lh;ad;cz	725
 坚	jiān;lt;lt;ty;pg;jc;at	723
-键	jiàn;jy;jz;jj;zu;qv;jj	722
 渐	jiàn;dj;dj;dv;kt;il;dj	697
 舰	jiàn;vj;ve;vj;ie;te;vj	673
 兼	jiān;bb;bn;bd,bj,qd,qj;hc;uv;en	669
 剑	jiàn;qd,rd;rd;da,dq;jp;wg;rd	663
-尖	jiān;xd;xd;xd;ym;id;ad	658
 鉴	jiàn;lj;lj;jv;pz;jt;aj	657
 践	jiàn;zj;zj;zj;pp;kh;zg	655
 剪	jiǎn;bd;bd;dq;hp;ue;ed	647
@@ -36425,6 +36425,7 @@ sort: by_weight
 蝏	tíng;id;id;it;ca;jy;	439
 廳	tīng;gx;gx;gt,gx;xh;yb;	423
 铤	tǐng;jw;jz;jt;zu;qt;jr	408
+町	tǐng;td;td;td;qa;ls;td	377
 庁	tīng;gd;gd;gd;xa;ys;	363
 葶	tíng;cd;cd;ct;la;ay;cd	335
 珽	tǐng;ww;wz;wt;nu;gt;wr	334
@@ -36470,7 +36471,6 @@ sort: by_weight
 忊	tìng;xd;xd;xd;ha;ns;	1
 梃	tìng;mw;mz;mt;eu;st;lr	1
 濎	tìng;do;dv;dd;ka;ih;	1
-町	tǐng;td;td;td;qa;ls;td	1
 鋌	tǐng;jw;jz;jt;zu;qt;	1
 閮	tǐng;mw;mz;mt;au;ut;	1
 㓅	tīng;;dd;;;;	1

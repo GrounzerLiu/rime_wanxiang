@@ -4736,8 +4736,8 @@ sort: by_weight
 呼兰区	hū;kh;kh;kh;dn;kt;kh lán;bs;bs;bs,qe;ht;uf;es qū;kx;kx;ki;nb;aq;kx	198
 湖里区	hú;do;do;dh;kv;id;do lǐ;tt;la;aa,tt;dl;jf;aa qū;kx;kx;ki;nb;aq;kx	274
 虎林市	hǔ;hj;hj;hj;zh;ha;aj lín;mm;mm;mm;ee;ss;ll shì;wj;wj;wj;zr;ym;wj	145
-葫芦堡	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch bǎo;rt;rt;tb;jg;wk;rt	126
-葫芦岛	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch dǎo;nu;pe;nu,un;xv;qy;ps	236
+葫芦堡	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch bǎo;rt;rt;tb;jg;wk;rt	126
+葫芦岛	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch dǎo;nu;pe;nu,un;xv;qy;ps	236
 虎门镇	hǔ;hj;hj;hj;zh;ha;aj mén;dv;dv;dg;am;uy;dv zhèn;jb;jb;jv;zh;qf;jb	416
 湖南省	hú;do;do;dh;kv;id;do nán;ug;ug;ua,uy;ng;fm;uu shěng;uo;uo;ou;yq;it;um	337
 湖内区	hú;do;do;dh;kv;id;do nèi;kr;ld;ad,kr;mj;mw;ad qū;kx;kx;ki;nb;aq;kx	1
@@ -20654,27 +20654,27 @@ sort: by_weight
 虎龙斗村	hǔ;hj;hj;hj;zh;ha;aj lóng;yp;ud;ad;tl;dx;ab dòu;ud;du;du;jd;uf;du cūn;mc;mc;mc;ek;sf;lc	1
 护龙山庄	hù;fh;fh;fh;um;ry;fh lóng;yp;ud;ad;tl;dx;ab shān;kl;lk;aa;vs;mm;aa zhuāng;gt;gt;gt;xg;yf;gt	183
 胡娄集村	hú;go;uo;og;cv;de;uo lóu;mn;mn;mn,nm;pb;ov;mn jí;rm;rm;mv,vm;ue;wy;rl cūn;mc;mc;mc;ek;sf;lc	1
-葫芦庵村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch ān;gd;gd;gd,gy;xa;yd;gd cūn;mc;mc;mc;ek;sf;lc	1
-葫芦岔村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch chà;fu;be;uf;hv;wv;bs cūn;mc;mc;mc;ek;sf;lc	1
-葫芦旦村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch dàn;oa;oa;oa;of;jg;oa cūn;mc;mc;mc;ek;sf;lc	1
-葫芦岛市	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch dǎo;nu;pe;nu,un;xv;qy;ps shì;wj;wj;wj;zr;ym;wj	455
-葫芦垡村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch fá;rt;rt;tf;jg;wa;rt cūn;mc;mc;mc;ek;sf;lc	1
-葫芦沟村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch gōu;dg;ds;dg;kk;iq;dv cūn;mc;mc;mc;ek;sf;lc	1
-葫芦口村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch kǒu;la;la;aa;dk;kk;aa cūn;mc;mc;mc;ek;sf;lc	1
-葫芦门村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch mén;dv;dv;dg;am;uy;dv cūn;mc;mc;mc;ek;sf;lc	1
-葫芦棚村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch péng;mo;mo;mp;ev;se;lo cūn;mc;mc;mc;ek;sf;lc	1
-葫芦寺村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch sì;tc;tc;ct,tc;gk;ff;tc cūn;mc;mc;mc;ek;sf;lc	1
-葫芦汤村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch tāng;dp;dp;dy;ke;in;dp cūn;mc;mc;mc;ek;sf;lc	35
-葫芦塘村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch táng;tk;tk;tt;gd;fy;tk cūn;mc;mc;mc;ek;sf;lc	1
-葫芦套村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch tào;dg;ds;di;mp;dd;dv cūn;mc;mc;mc;ek;sf;lc	173
-葫芦套乡	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch tào;dg;ds;di;mp;dd;dv xiāng;vp;vp;ap,vp;ix;xt;vp	1
-葫芦头村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch tóu;dd;dd;dd;wm;ud;dd cūn;mc;mc;mc;ek;sf;lc	1
-葫芦细村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch xì;st;st;st;iq;xl;st cūn;mc;mc;mc;ek;sf;lc	1
+葫芦庵村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch ān;gd;gd;gd,gy;xa;yd;gd cūn;mc;mc;mc;ek;sf;lc	1
+葫芦岔村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch chà;fu;be;uf;hv;wv;bs cūn;mc;mc;mc;ek;sf;lc	1
+葫芦旦村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch dàn;oa;oa;oa;of;jg;oa cūn;mc;mc;mc;ek;sf;lc	1
+葫芦岛市	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch dǎo;nu;pe;nu,un;xv;qy;ps shì;wj;wj;wj;zr;ym;wj	455
+葫芦垡村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch fá;rt;rt;tf;jg;wa;rt cūn;mc;mc;mc;ek;sf;lc	1
+葫芦沟村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch gōu;dg;ds;dg;kk;iq;dv cūn;mc;mc;mc;ek;sf;lc	1
+葫芦口村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch kǒu;la;la;aa;dk;kk;aa cūn;mc;mc;mc;ek;sf;lc	1
+葫芦门村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch mén;dv;dv;dg;am;uy;dv cūn;mc;mc;mc;ek;sf;lc	1
+葫芦棚村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch péng;mo;mo;mp;ev;se;lo cūn;mc;mc;mc;ek;sf;lc	1
+葫芦寺村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch sì;tc;tc;ct,tc;gk;ff;tc cūn;mc;mc;mc;ek;sf;lc	1
+葫芦汤村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch tāng;dp;dp;dy;ke;in;dp cūn;mc;mc;mc;ek;sf;lc	35
+葫芦塘村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch táng;tk;tk;tt;gd;fy;tk cūn;mc;mc;mc;ek;sf;lc	1
+葫芦套村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch tào;dg;ds;di;mp;dd;dv cūn;mc;mc;mc;ek;sf;lc	173
+葫芦套乡	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch tào;dg;ds;di;mp;dd;dv xiāng;vp;vp;ap,vp;ix;xt;vp	1
+葫芦头村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch tóu;dd;dd;dd;wm;ud;dd cūn;mc;mc;mc;ek;sf;lc	1
+葫芦细村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch xì;st;st;st;iq;xl;st cūn;mc;mc;mc;ek;sf;lc	1
 虎路线村	hǔ;hj;hj;hj;zh;ha;aj lù;zk;zk;zg;ps;kh;zk xiàn;sj;sj;sj;ip;xg;sg cūn;mc;mc;mc;ek;sf;lc	1
 护路辛庄	hù;fh;fh;fh;um;ry;fh lù;zk;zk;zg;ps;kh;zk xīn;lu;lu;lu;nx;uy;lu zhuāng;gt;gt;gt;xg;yf;gt	1
 胡鲁营村	hú;go;uo;og;cv;de;uo lǔ;yo;ao;yo;wo;qg;eo yíng;ck;ck;cl;ld;ap;ck cūn;mc;mc;mc;ek;sf;lc	1
-葫芦峪村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch yù;ug;ek;ug;vh;mw;sk cūn;mc;mc;mc;ek;sf;lc	168
-葫芦庄村	hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch zhuāng;gt;gt;gt;xg;yf;gt cūn;mc;mc;mc;ek;sf;lc	1
+葫芦峪村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch yù;ug;ek;ug;vh;mw;sk cūn;mc;mc;mc;ek;sf;lc	168
+葫芦庄村	hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch zhuāng;gt;gt;gt;xg;yf;gt cūn;mc;mc;mc;ek;sf;lc	1
 呼伦贝尔	hū;kh;kh;kh;dn;kt;kh lún;rl;rb;rl;jj;ww;rb bèi;kr;kr;ad,kr;ob;mh;ar ěr;dx;dx;dx,xd;xy;qi;ex	580
 呼玛二村	hū;kh;kh;kh;dn;kt;kh mǎ;wm;wm;wm;nn;gc;wm èr;aa;aa;aa;me;fg;aa cūn;mc;mc;mc;ek;sf;lc	35
 葫麻梁村	hú;co;co;ch;lv;ad;co má;gm;gm;gl;zm;ys;gl liáng;dm;dm;mb;ke;iv;dl cūn;mc;mc;mc;ek;sf;lc	1
@@ -26172,7 +26172,7 @@ sort: by_weight
 麻河口镇	má;gm;gm;gl;zm;ys;gl hé;dk;dk;dk;kz;is;dk kǒu;la;la;aa;dk;kk;aa zhèn;jb;jb;jv;zh;qf;jb	105
 马河滩村	mǎ;va;va;aa,vh;nm;cn;va hé;dk;dk;dk;kz;is;dk tān;dv;df;dn;ku;ic;dn cūn;mc;mc;mc;ek;sf;lc	1
 马横岭村	mǎ;va;va;aa,vh;nm;cn;va héng;mb;mb;mh;en;sa;lb lǐng;us;es;ul;vk;mw;sv cūn;mc;mc;mc;ek;sf;lc	1
-马虎头村	mǎ;va;va;aa,vh;nm;cn;va hǔ;hj;hj;hj;zh;ha;aj tóu;dd;dd;dd;wm;ud;dd cūn;mc;mc;mc;ek;sf;lc	178
+马虎头村	mǎ;va;va;aa,vh;nm;cn;va hu;hj;hj;hj;zh;ha;aj tóu;dd;dd;dd;wm;ud;dd cūn;mc;mc;mc;ek;sf;lc	178
 马户屯村	mǎ;va;va;aa,vh;nm;cn;va hù;du;du;dp,du;mh;yn;du tún;av;av;ag;fs;gb;av cūn;mc;mc;mc;ek;sf;lc	1
 马呼沱村	mǎ;va;va;aa,vh;nm;cn;va hū;kh;kh;kh;dn;kt;kh tuó;db;db;dt;kv;ip;db cūn;mc;mc;mc;ek;sf;lc	1
 马湖峪村	mǎ;va;va;aa,vh;nm;cn;va hú;do;do;dh;kv;id;do yù;ug;ek;ug;vh;mw;sk cūn;mc;mc;mc;ek;sf;lc	1
@@ -31453,7 +31453,7 @@ sort: by_weight
 上虹新村	shàng;ba;la;aa,ba;yf;hh;aa hóng;ig;ig;ig;cu;ja;ig xīn;lj;lj;jq;it;us;lj cūn;mc;mc;mc;ek;sf;lc	134
 上红兴村	shàng;ba;la;aa,ba;yf;hh;aa hóng;sg;sg;sg;iu;xa;sg xīng;xb;xb;ba,db;kh;iw;eb cūn;mc;mc;mc;ek;sf;lc	1
 商户地乡	shāng;wk;wk;wk,lk,dk;id;um;wk hù;du;du;dp,du;mh;yn;du dì;ty;ty;ty;ge;fb;ty xiāng;vp;vp;ap,vp;ix;xt;vp	58
-上葫芦村	shàng;ba;la;aa,ba;yf;hh;aa hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch cūn;mc;mc;mc;ek;sf;lc	92
+上葫芦村	shàng;ba;la;aa,ba;yf;hh;aa hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch cūn;mc;mc;mc;ek;sf;lc	92
 上花岔乡	shàng;ba;la;aa,ba;yf;hh;aa huā;cb;cb;ch;lv;aw;cb chà;fu;be;uf;hv;wv;bs xiāng;vp;vp;ap,vp;ix;xt;vp	116
 上花园村	shàng;ba;la;aa,ba;yf;hh;aa huā;cb;cb;ch;lv;aw;cb yuán;ky;ke;ky;rp;lf;we cūn;mc;mc;mc;ek;sf;lc	34
 尚黄桥村	shàng;xk;xk;xk;ss;im;ek huáng;cb;cb;ad,cb;nh;am;cb qiáo;ml;ml;mq;ep;st;lq cūn;mc;mc;mc;ek;sf;lc	1
@@ -34955,7 +34955,7 @@ sort: by_weight
 土河沟村	tǔ;ua;ua;aa;gt;ff;ua hé;dk;dk;dk;kz;is;dk gōu;dg;ds;dg;kk;iq;dv cūn;mc;mc;mc;ek;sf;lc	1
 土红坳村	tǔ;ua;ua;aa;gt;ff;ua hóng;sg;sg;sg;iu;xa;sg ào;tl;tl;ty;gs;fx;tl cūn;mc;mc;mc;ek;sf;lc	1
 吐呼鲁村	tǔ;kt;kt;kt;dg;kf;kt hū;kh;kh;kh;dn;kt;kh lǔ;yo;ao;yo;wo;qg;eo cūn;mc;mc;mc;ek;sf;lc	1
-吐葫芦乡	tǔ;kt;kt;kt;dg;kf;kt hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch xiāng;vp;vp;ap,vp;ix;xt;vp	58
+吐葫芦乡	tǔ;kt;kt;kt;dg;kf;kt hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch xiāng;vp;vp;ap,vp;ix;xt;vp	58
 图呼其乡	tú;kd;kd;kd;rw;lt;wd hū;kh;kh;kh;dn;kt;kh qí;cb;qb;ba,ad,hb;zh;ad;ab xiāng;vp;vp;ap,vp;ix;xt;vp	58
 土基街村	tǔ;ua;ua;aa;gt;ff;ua jī;ct;qt;tq,qt;zg;ad;qt jiē;rt;ii;xg,xi;pg;tf;rd cūn;mc;mc;mc;ek;sf;lc	1
 涂家坝村	tú;dm;dh;dy;kx;iw;dx jiā;bu;bu;bu;wj;pe;gn bà;tb;tr;tb;go;fm;tr cūn;mc;mc;mc;ek;sf;lc	1
@@ -37194,7 +37194,7 @@ sort: by_weight
 西湖浃村	xī;ak,wk;aa;aa;vx;sg;aa hú;do;do;dh;kv;id;do jiā;dj;dj;dj;kh;ig;dj cūn;mc;mc;mc;ek;sf;lc	1
 西湖景村	xī;ak,wk;aa;aa;vx;sg;aa hú;do;do;dh;kv;id;do jǐng;ox;ox;oj;oy;jy;ox cūn;mc;mc;mc;ek;sf;lc	1
 西胡林村	xī;ak,wk;aa;aa;vx;sg;aa hú;go;uo;og;cv;de;uo lín;mm;mm;mm;ee;ss;ll cūn;mc;mc;mc;ek;sf;lc	156
-西葫芦村	xī;ak,wk;aa;aa;vx;sg;aa hú;co;co;ch;lv;ad;co lú;ch;ch;ch;lm;ay;ch cūn;mc;mc;mc;ek;sf;lc	1
+西葫芦村	xī;ak,wk;aa;aa;vx;sg;aa hú;co;co;ch;lv;ad;co lu;ch;ch;ch;lm;ay;ch cūn;mc;mc;mc;ek;sf;lc	1
 西湖社村	xī;ak,wk;aa;aa;vx;sg;aa hú;do;do;dh;kv;id;do shè;pt;pt;ut,tu;fg;py;pt cūn;mc;mc;mc;ek;sf;lc	1
 西湖头村	xī;ak,wk;aa;aa;vx;sg;aa hú;do;do;dh;kv;id;do tóu;dd;dd;dd;wm;ud;dd cūn;mc;mc;mc;ek;sf;lc	1
 溪湖小镇	xī;dd;dd;dx;km;ie;dd hú;do;do;dh;kv;id;do xiǎo;lb;ld;ad;yx;ih;vd zhèn;jb;jb;jv;zh;qf;jb	77
