@@ -3906,7 +3906,6 @@ sort: by_weight
 龙阳县歌	lóng yáng xiàn gē	8
 漏声正水	lòu shēng zhèng shuǐ	8
 楼台歌舞	lóu tái gē wǔ	8
-露天晓角	lòu tiān xiǎo jiǎo	8
 路残月在	lù cán yuè zài	8
 路车有奭	lù chē yǒu shì	8
 路出名区	lù chū míng qū	6
@@ -3926,6 +3925,7 @@ sort: by_weight
 鲁人猎较	lǔ rén liè jiào	8
 庐山山色	lú shān shān sè	8
 鹿斯之奔	lù sī zhī bēn	8
+露天晓角	lù tiān xiǎo jiǎo	8
 卢仝塌沙	lú tóng tā shā	8
 鹿头是守	lù tóu shì shǒu	8
 卢头陀诗	lú tóu tuó shī	8
@@ -67721,7 +67721,7 @@ sort: by_weight
 红芳怜静色	hóng fāng lián jìng sè	6
 红芳照水荷	hóng fāng zhào shuǐ hé	6
 虹飞百尺桥	hóng fēi bǎi chǐ qiáo	6
-鸿飞白露天	hóng fēi bái lòu tiān	6
+鸿飞白露天	hóng fēi bái lù tiān	6
 鸿飞极浦斜	hóng fēi jí pǔ xié	6
 鸿飞入杳冥	hóng fēi rù yǎo míng	6
 鸿飞万里天	hóng fēi wàn lǐ tiān	6
@@ -98156,7 +98156,7 @@ sort: by_weight
 辽鹤记城闉	liáo hè jì chéng yīn	6
 辽鹤令威身	liáo hè lìng wēi shēn	6
 聊和鸥鸦橹	liáo hé ōu yā lǔ	6
-料合同惆怅	liào hé tóng chóu chàng	6
+料合同惆怅	liào hé tong chóu chàng	6
 辽鹤委池鹜	liáo hè wěi chí wù	6
 辽河有戍城	liáo hé yǒu shù chéng	6
 辽鹤乍飞回	liáo hè zhà fēi huí	6
@@ -101784,8 +101784,6 @@ sort: by_weight
 楼台照海色	lóu tái zhào hǎi sè	6
 楼台重蜃气	lóu tái zhòng shèn qì	6
 楼台昼影迟	lóu tái zhòu yǐng chí	6
-露天厨作泞	lòu tiān chú zuò nìng	6
-露天星上月	lòu tiān xīng shàng yuè	6
 楼头俯首看	lóu tóu fǔ shǒu kàn	6
 楼头广陵近	lóu tóu guǎng líng jìn	6
 楼头桃李疏	lóu tóu táo lǐ shū	6
@@ -102357,8 +102355,10 @@ sort: by_weight
 露台湛空明	lù tái zhàn kōng míng	6
 鹭涛开碧海	lù tāo kāi bì hǎi	6
 鹭涛清梵彻	lù tāo qīng fàn chè	6
+露天厨作泞	lù tiān chú zuò nìng	6
 炉添龙脑炷	lú tiān lóng nǎo zhù	6
 炉添没后香	lú tiān méi hòu xiāng	6
+露天星上月	lù tiān xīng shàng yuè	6
 虏庭悲所遣	lǔ tíng bēi suǒ qiǎn	6
 鹿头何亭亭	lù tóu hé tíng tíng	6
 垆头酒正香	lú tóu jiǔ zhèng xiāng	6
@@ -108521,7 +108521,7 @@ sort: by_weight
 谬奉千龄日	miù fèng qiān líng rì	6
 谬奉玉樽倾	miù fèng yù zūn qīng	6
 谬官辞获免	miù guān cí huò miǎn	6
-谬合同人旨	miù hé tóng rén zhǐ	6
+谬合同人旨	miù hé tong rén zhǐ	6
 谬挥紫泥诏	miù huī zǐ ní zhào	6
 谬接瑶华枝	miù jiē yáo huá zhī	6
 谬进空内讼	miù jìn kōng nèi sòng	6
@@ -114696,7 +114696,7 @@ sort: by_weight
 披荒为近名	pī huāng wéi jìn míng	6
 披豁惭深眷	pī huō cán shēn juàn	6
 披豁对吾真	pī huō duì wú zhēn	6
-披豁露天悭	pī huō lòu tiān qiān	6
+披豁露天悭	pī huō lù tiān qiān	6
 劈箭入高浪	pī jiàn rù gāo làng	6
 辟疆旧林间	pì jiāng jiù lín jiān	6
 辟疆年正少	pì jiāng nián zhèng shǎo	6
@@ -126329,7 +126329,7 @@ sort: by_weight
 秋官为主人	qiū guān wéi zhǔ rén	6
 秋馆烟雨合	qiū guǎn yān yǔ hé	6
 秋光澹紫宫	qiū guāng dàn zǐ gōng	6
-秋光风露天	qiū guāng fēng lòu tiān	6
+秋光风露天	qiū guāng fēng lù tiān	6
 秋光更遥衍	qiū guāng gèng yáo yǎn	6
 秋光近青岑	qiū guāng jìn qīng cén	6
 秋光景气殊	qiū guāng jǐng qì shū	6

@@ -1,5 +1,39 @@
 # Changelog
 
+## [11.3.3](https://github.com/amzxyz/rime_wanxiang/compare/v11.3.2...v11.3.3) (2025-08-27)
+
+
+### 📚 词库更新
+
+* 睡前更新 ([f78e690](https://github.com/amzxyz/rime_wanxiang/commit/f78e69054aa20e49906a622e019160b88690ec37))
+
+
+### 🐛 Bug 修复
+
+* 整合comment和preedit的Lua插件 ([38caa5f](https://github.com/amzxyz/rime_wanxiang/commit/38caa5f99ed0d91a676cfe02fc95e06cadcb65c1))
+
+## [11.3.2](https://github.com/amzxyz/rime_wanxiang/compare/v11.3.1...v11.3.2) (2025-08-26)
+
+
+### 📚 词库更新
+
+* 词库调整 ([79cefe9](https://github.com/amzxyz/rime_wanxiang/commit/79cefe9b074dd7eaf26b94e9215b4833c07258a0))
+* 词库调整 ([18513ae](https://github.com/amzxyz/rime_wanxiang/commit/18513ae795f3beb892f37bbcb0926bddde216006))
+* 词库调整 ([f639846](https://github.com/amzxyz/rime_wanxiang/commit/f63984613cefb88e529febc77194c4166e33bca3))
+* 词库调整 ([324f6b3](https://github.com/amzxyz/rime_wanxiang/commit/324f6b3906def65fee3004fbf577d26ed1d9a81c))
+* 词库调整 ([70628ae](https://github.com/amzxyz/rime_wanxiang/commit/70628aee40e9f0a05d785cdcec70bd76d82e5ae0))
+* 词库调整 ([78e8ca8](https://github.com/amzxyz/rime_wanxiang/commit/78e8ca8103d6a4e8d45b0ad1a46e412ae35339b2))
+* 词库调整 ([40375b5](https://github.com/amzxyz/rime_wanxiang/commit/40375b57aab935f82ab2db76c9e7a27f2f4d34f7))
+
+
+### 🐛 Bug 修复
+
+* **lua:** Windows小狼毫相关问题修复 ([87c04e9](https://github.com/amzxyz/rime_wanxiang/commit/87c04e94d9ba33d27db657bca55c60b97fe6548a))
+* 优化方案配置 ([222f899](https://github.com/amzxyz/rime_wanxiang/commit/222f899a03ee2dcd444689eff957f20986008ef0))
+* 全拼优化 ([28fa338](https://github.com/amzxyz/rime_wanxiang/commit/28fa338614d64a60249ceef5aceeecfa51f4d49f))
+* 去掉gc ([7682cfe](https://github.com/amzxyz/rime_wanxiang/commit/7682cfeb048da77e9ed8795135811099ec568374))
+* 龙码使用全拼反查 ([2dddb5e](https://github.com/amzxyz/rime_wanxiang/commit/2dddb5eedd14e506c279238934ea887d55ced616))
+
 ## [11.3.1](https://github.com/amzxyz/rime_wanxiang/compare/v11.3.0...v11.3.1) (2025-08-21)
 
 
