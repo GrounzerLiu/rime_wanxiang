@@ -66,7 +66,6 @@ engine:
     - lua_processor@*limit_repeated             #用于限制最大候选长度以及最大重复输入声母编码长度，避免性能异常
     - lua_processor@*backspace_limit            #防止连续 Backspace 在编码为空时删除已上屏内容
     - lua_processor@*typo_corrector             #基于编码策略的按键纠错,可与转写法共用,能跨越单字编码到词组级别,补齐转写方式短板
-    - lua_processor@*userdb_sync_delete         #⚠️危险操作：通过输入 /del 触发,用于清理自定义同步目录下txt用户词典里被标记c<0的词条，操作步骤：必须先同步、再执行/del、再去部署刷新状态、再去同步回收词典，完成动作。
     - ascii_composer                            #处理英文模式及中英文切换
     - recognizer                                #与 matcher 搭配，处理符合特定规则的输入码，如网址、反查等 tags
     - key_binder                                #在特定条件下将按键绑定到其他按键，如重定义逗号、句号为候选翻页、开关快捷键等
@@ -101,8 +100,6 @@ engine:
     - script_translator@add_user_dict      #按需自造词
     - script_translator@user_dict_set      #使用自造词
   filters:
-    - lua_filter@*super_sequence*F                  #手动排序，高亮候选 ctrl+j左移动 ctrl+k 右移动 ctrl+0 移除位移
-    - lua_filter@*autocap_filter                    #英文自动大写，当输入一个大写那么候选首字母大写，当输入两个大写那么候选全为大写
     - reverse_lookup_filter@radical_reverse_lookup  #部件拆字滤镜，放在super_comment前面，进一步被超级注释处理以获得拼音编码的提示
     - lua_filter@*super_comment_preedit             #超级注释模块、超级preedit，支持错词提示、辅助码显示，部件组字读音注释，有声调、无声调全拼编码的转换，支持个性化配置和关闭相应的功能，详情搜索super_comment_preedit进行详细配置
     - simplifier@emoji                              #Emoji滤镜
@@ -111,7 +108,8 @@ engine:
     - simplifier@s2hk                               #简繁切换港繁
     - simplifier@chinese_english                    #中英翻译滤镜
     - lua_filter@*search@wanxiang_reverse           #部件拆字辅码放在简繁转换之后
-    - lua_filter@*text_formatting                   #给自定义用户词扩展一个换行:\n, 制表符：\t, 回车符：\r, 空格：\s
+    - lua_filter@*text_formatting_promote           #给自定义用户词扩展一个换行:\n, 制表符：\t, 回车符：\r, 空格：\s ，并对简码位置提升到第二位，同时保证英文前置避免无效派生干扰
+    - lua_filter@*super_sequence*F                  #手动排序，高亮候选 ctrl+j左移动 ctrl+k 右移动 ctrl+0 移除位移
     - uniquifier                                    # 去重
 
 # Tips 配置项
@@ -141,10 +139,12 @@ birthday_reminder:  #日期格式：必须是4位数字，格式为MMDD（月份
     小明: "0114"
     小红: "0815,农历中秋"
 
-#快符lua，lua中有预设，26个字母、10个数字，你可以在这里配置替换默认的值，键可以是一个或多个，值可以是任意字符这里不齐全默认配置将生效
+# a/、aa/ 单字母、双字母组合，触发预设编码自动上屏快符，支持将值设为"repeat" 以支持对应按键重复上屏功能，custom>schema>lua最终合并键值
+# 由于间接辅助使用的/作为第三字符引导，因此间接辅助模式下只能加载单字母快符表的扩展，其他情况则支持a/、aa/(虽然没有预设，但你可以自定义)更多扩展
+# 因为是后触发，不再支持其他符号和0-9字母的扩展，解放了分号的占用，如果不习惯可保留历史版本分号引导使用
 quick_symbol_text:
-  q: "欢迎使用万象拼音"
-  w: "噢我的天哪！"
+  q: "repeat"
+  w: "欢迎使用万象拼音"
   e: "（"
   r: "）"
   t: "~"
@@ -169,16 +169,6 @@ quick_symbol_text:
   b: "%"
   n: "《"
   m: "》"
-  "1": "①"
-  "2": "②"
-  "3": "③"
-  "4": "④"
-  "5": "⑤"
-  "6": "⑥"
-  "7": "⑦"
-  "8": "⑧"
-  "9": "⑨"
-  "0": "⓪"
 
 # Lua 配置：计算器触发关键字
 calculator:
@@ -193,10 +183,10 @@ translator:
 #  user_dict: zrm.userdb       # 用户词典的文件名称
 #  db_class: tabledb           #开启后就不会产生wanxiang.userdb这样的文件夹，会直接输出文本wanxiang.txt同时无法使用同步能力，可设 tabledb〔文本〕或 userdb〔二进制〕
   enable_user_dict: true       # 是否开启自动调频，即开启用户词典
-  enable_encoder: true         #是否开启自动造词
-  enable_sentence: false       #是否开启自动造句
-  enable_correction: false     #是否开启自动纠错
-  encode_commit_history: true  # 预留历史上屏自动编码成词
+#  enable_encoder: true         #是否开启自动造词
+#  enable_sentence: false       #是否开启自动造句
+#  enable_correction: false     #是否开启自动纠错
+#  encode_commit_history: true  # 预留历史上屏自动编码成词
   core_word_length: 4          # >0 启用，按段学词 + 相邻段拼接
   max_word_length: 7           # >0 启用，过长短语不记整词，只加元素权重
   initial_quality: 3           #初始质量拼音的权重应该比英文大
@@ -236,7 +226,7 @@ wanxiang_mixedcode:
   db_class: stabledb
   enable_completion: true
   enable_sentence: false
-  initial_quality: 0.5
+  initial_quality: 2
   comment_format:
     - xform/^.+$//
 
@@ -278,8 +268,9 @@ wanxiang_reverse:
   dictionary: wanxiang_reverse
   db_class: stabledb
   enable_user_dict: false
-  prefix: "`"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
-  tips: "〔反查：部件|笔画〕"
+  enable_sentence: false
+  prefix: "`"  # 反查前缀（反查时前缀会消失），与 recognizer/patterns/wanxiang_reverse 匹配
+  tips: "〔反查：拆分|笔画〕"
 
 # 部件拆字滤镜
 radical_reverse_lookup:
@@ -299,7 +290,6 @@ recognizer:
     number: "^R[0-9]+[.]?[0-9]*"        # R 作为触发前缀, 响应 lua_translator@number_translator，数字金额大写
     lunar: "^N[0-9]{1,8}"               # N 作为触发前缀，响应 lua_translator@shijian，公历转农历，输入 N20250515 得到「二〇二五年五月十五」
     calculator: "^V.*$"                 # V 作为触发前缀，计算器功能引导
-    quick_symbol: "^;.*$"  # 快符引导，例如输入;q 后自动上屏快速符号，双击;;上屏中文分号本身，如果你想使用顿号 可以改成"^\\\\.*$"，双击输出、而;'输出重复上屏内容
     #add_user_dict: "^ac[A-Za-z/`']*$"      #自造词引导方式
 # 标点符号
 # punctuator 下面有三个子项：
@@ -311,7 +301,7 @@ recognizer:
 #              '`'（反引号）没有改成 '·'（间隔号）。
 #   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的修改 symbols.yaml
 punctuator:
-  digit_separators: ":,."  #数字分隔符，系统逻辑是在中文状态下输入数字后继续输入句号按下两次即输入半角状态
+  digit_separators: ",."  #数字分隔符，系统逻辑是在中文状态下输入数字后继续输入句号按下两次即输入半角状态
   __include: wanxiang_symbols:/symbol_table         # 从 wanxiang_symbols.yaml 导入所有符号配置
 
 # 从 default 继承快捷键
@@ -329,7 +319,7 @@ key_binder:
   # Lua 配置: 以词定字（上屏当前词句的第一个或最后一个字），和中括号翻页有冲突
   select_first_character: "bracketleft"  # 左中括号 [
   select_last_character: "bracketright"  # 右中括号 ]
-  search: "`"             # 辅码引导符，要添加到 speller/alphabet
+  search: "`"             # 反查引导符，要添加到 speller/alphabet
   bindings:               # 也可以再增加方案专有的
 #- { when: composing, accept: Tab, send: '[' } ## 取消注释后：tab引导辅助码
     - { when: composing, accept: Control+w, send: Control+BackSpace }
@@ -1152,7 +1142,7 @@ user_dict_set:
   initial_quality: 0
   enable_completion: false
   enable_sentence: false
-  spelling_hints: 100
+  spelling_hints: 50
   comment_format:
   preedit_format:     #影响到输入框的显示和“Shift+回车”上屏的字符，交给super_preedit_pro处理
     - xform/7/¹/
@@ -1167,12 +1157,10 @@ add_user_dict:
   dictionary: wanxiang
   initial_quality: -1
   user_dict: zc
-  enable_charset_filter: false # 是否开启字符集过滤
   enable_completion: true # 提前显示尚未输入完整码的字〔仅 table_translator 有效〕
-  enable_encoder: true # 是否开启自动造词〔仅 table_translator 有效〕
-  enable_sentence: true #  是否开启自动造句
   enable_user_dict: false
-  encode_commit_history: false # 是否对已上屛词自动成词〔仅 table_translator 有效〕  
+  enable_auto_phrase: false    # lua造词功能，在custom开启，相关功能位于super_comment_preedit，开启后：模型能造的句子不造词，现有的词不造词，只造词库没有的，选词可造词
+  spelling_hints: 50
   comment_format:
   prefix: "``"
   tips: "〔开始造词〕"

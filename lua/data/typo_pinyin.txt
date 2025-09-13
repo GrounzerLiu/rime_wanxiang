@@ -122,7 +122,6 @@ ahou	ahpu
 gmou	gmpu
 urou	urpu
 ucou	ucpu
-amou	ampu
 arou	arpu
 gfou	gfpu
 ekou	ekpu
@@ -407,28 +406,6 @@ fouj	fpuj
 foul	fpul
 four	fpur
 fouz	fpuz
-goua	gpua
-goub	gpub
-gouc	gpuc
-goud	gpud
-goue	gpue
-gouf	gpuf
-goug	gpug
-gouh	gpuh
-gouj	gpuj
-gouk	gpuk
-goul	gpul
-goum	gpum
-goun	gpun
-goup	gpup
-gouq	gpuq
-gour	gpur
-gous	gpus
-gout	gput
-gouw	gpuw
-goux	gpux
-gouy	gpuy
-gouz	gpuz
 koua	kpua
 koub	kpub
 kouc	kpuc
@@ -1060,7 +1037,6 @@ bian	biam
 mian	miam
 nian	niam
 pian	piam
-qian	qiam
 dian	diam
 tian	tiam
 #ign修正为ing
@@ -1228,7 +1204,6 @@ xuea	xuwa
 xueb	xuwb
 xuec	xuwc
 xued	xuwd
-xuwe	xuwe
 xuef	xuwf
 xueg	xuwg
 xueh	xuwh
@@ -1269,7 +1244,6 @@ yuez	yuwz
 nueb	nuwb
 nuek	nuwk
 nuey	nuwy
-niwe	nuwe
 nuen	nuwn
 nuep	nuwp
 nuez	nuwz
