@@ -39,6 +39,7 @@ translator:
   dictionary: wanxiang_mixedcode
   enable_user_dict: false
 通用派生规则:
+  - derive|^([A-Z].)$|$1/|
   # 数字派生，先将整数类派生出英文写法
   - derive/(?<!\d)1([1-9])(?!\d)/'shí'$1/
   - derive/([1-9])0000(?!0)/$1'wàn'/
@@ -179,7 +180,6 @@ translator:
     - derive/('|^)([aoe])([ioun])(?=^|$|')/$1$2$2$3/
     - xform/('|^)([aoe])(ng)?(?=^|$|')/$1$2$2$3/
     - xform/('|^)([qdjlxnm])iu(?=^|$|')/$1$2<q>/
-    - xform/('|^)((?:<v>|[aoewtpdfghklzvbnm]))ei(?=^|$|')/$1$2<w>/
     - xform/('|^)([qyjlxn])[uv]e(?=^|$|')/$1$2<t>/
     - xform/^sh/<u>/
     - xform/^ch/<i>/
@@ -187,6 +187,7 @@ translator:
     - xform/'sh/'<u>/
     - xform/'ch/'<i>/
     - xform/'zh/'<v>/
+    - xform/('|^)((?:<v>|[aoewtpdfghklzvbnm]))ei(?=^|$|')/$1$2<w>/
     - xform/('|^)((?:<v>|<i>|<u>|[qrtysdghjklzxc]))un(?=^|$|')/$1$2<y>/
     - xform/('|^)((?:<v>|<i>|<u>|[qrtysdghjklzxcn]))uan(?=^|$|')/$1$2<r>/
     - xform/('|^)((?:<v>|<i>|<u>|[tsdghklzcn]))uo(?=^|$|')/$1$2<o>/
