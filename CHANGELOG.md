@@ -1,5 +1,138 @@
 # Changelog
 
+## [13.0.0](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.13...v13.0.0) (2025-09-29)
+
+
+### 📚 词库更新
+
+* 词库调整 ([9d37d82](https://github.com/amzxyz/rime_wanxiang/commit/9d37d82c3230707419009717acc99af6e65cdc5f))
+* 词库调整 ([3c614be](https://github.com/amzxyz/rime_wanxiang/commit/3c614be8d3b703f54b3e94a56beff13a69cf11cb))
+
+
+### 🐛 Bug 修复
+
+* 调整反查数据排序 ([0eddcc0](https://github.com/amzxyz/rime_wanxiang/commit/0eddcc094b9464fbcaf7bb47890ea12a9f1a24af))
+* 超级注释调整，去掉辅助类型选择，削减拆分数据大小括号内容交给程序实时添加，并在配置中统一了括号加占位的形式减少之前大括号外面再加括号的困惑 ([6872786](https://github.com/amzxyz/rime_wanxiang/commit/687278648f027853e2c06b083d730ecf9f83eed5))
+
+
+### 💅 重构
+
+* 转写单独文件调用，避免交叉引用，本次更新会导致原patch失效，按照示例简单修改即可恢复 ([4955e96](https://github.com/amzxyz/rime_wanxiang/commit/4955e9667cb8919f5eaf48fafdbdf7269bfebfe4))
+
+
+### 🏡 杂项
+
+* pr ([ebf8224](https://github.com/amzxyz/rime_wanxiang/commit/ebf82243cdf6cf66199f097b296f94f8decb33a5))
+* release 13.0.0 ([f77be14](https://github.com/amzxyz/rime_wanxiang/commit/f77be145f5db41dbbda3462abb0dc814c8fd7a7b))
+
+## [12.6.13](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.12...v12.6.13) (2025-09-28)
+
+
+### 📚 词库更新
+
+* 词库调整 ([8ea6de4](https://github.com/amzxyz/rime_wanxiang/commit/8ea6de45f6ff1aaae6fe02716d11948125daf188))
+* 词库调整 ([8673c01](https://github.com/amzxyz/rime_wanxiang/commit/8673c014d3277326f6f3405db52fed866ffcf84e))
+* 词库调整 ([1cc30b9](https://github.com/amzxyz/rime_wanxiang/commit/1cc30b913adf1e89447f00aadfde04d54c3de556))
+
+
+### 🐛 Bug 修复
+
+* 自动化变更 ([e5ecf3c](https://github.com/amzxyz/rime_wanxiang/commit/e5ecf3c480a5c207e1f9d8c6fb83d8b74bf6ed49))
+
+## [12.6.12](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.11...v12.6.12) (2025-09-27)
+
+
+### 📚 词库更新
+
+* 词库调整 ([c974b23](https://github.com/amzxyz/rime_wanxiang/commit/c974b23c59ae9b86ed3dfe5eb79828ef81793d8c))
+
+## [12.6.11](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.10...v12.6.11) (2025-09-27)
+
+
+### 🐛 Bug 修复
+
+* 移除侵入性太强的编码纠错，后续想办法提供词库类型的纠错 ([ffdd368](https://github.com/amzxyz/rime_wanxiang/commit/ffdd368857e8bdbf1d594e710ef41eb2e23bf0d7))
+
+## [12.6.10](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.9...v12.6.10) (2025-09-27)
+
+
+### 📚 词库更新
+
+* 词库更新 ([a1476c4](https://github.com/amzxyz/rime_wanxiang/commit/a1476c496e3d10d1ac3e8bacf01bdeb4f9165a35))
+* 词库调整 ([3957f6e](https://github.com/amzxyz/rime_wanxiang/commit/3957f6eb3287247f97719e802d00ae06e76088fc))
+* 词库调整 ([7b26836](https://github.com/amzxyz/rime_wanxiang/commit/7b268367782e48ad6f235ba37716eccb0369ee16))
+
+
+### 🏡 杂项
+
+* 创建release ([3766621](https://github.com/amzxyz/rime_wanxiang/commit/37666217e5237f81a3a7619256fa20a16d758337))
+
+## [12.6.9](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.8...v12.6.9) (2025-09-26)
+
+
+### 📚 词库更新
+
+* 词库调整 ([7926471](https://github.com/amzxyz/rime_wanxiang/commit/79264713619f419aa99d273d4db534b0ccc17f6c))
+
+
+### 🐛 Bug 修复
+
+* 修改说明 ([7ed287b](https://github.com/amzxyz/rime_wanxiang/commit/7ed287b6ac25bcfd4b956fd95ed98555bb2bb118))
+* 修改说明 ([bb0a449](https://github.com/amzxyz/rime_wanxiang/commit/bb0a449aef5dc10e07e9019f32b7392a5e283480))
+* 修改说明 ([ad3f02e](https://github.com/amzxyz/rime_wanxiang/commit/ad3f02e1f8dc961c54f1da87c324c0aa73c52690))
+
+## [12.6.8](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.7...v12.6.8) (2025-09-25)
+
+
+### 🐛 Bug 修复
+
+* 修改说明 ([0ad748d](https://github.com/amzxyz/rime_wanxiang/commit/0ad748d4df77dd794d82d364bf501f8c549c639b))
+
+## [12.6.7](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.6...v12.6.7) (2025-09-25)
+
+
+### 📚 词库更新
+
+* 梳理otheremoji迁移到symbol ([669d39b](https://github.com/amzxyz/rime_wanxiang/commit/669d39bed612586a2171b1096ae482c3c47babdf))
+* 词库调整 ([5a50395](https://github.com/amzxyz/rime_wanxiang/commit/5a50395b70eb099171381ae2e1f497356e57055c))
+
+
+### 🐛 Bug 修复
+
+* 与前端配合的考量后续default将以custom形式提供，相关功能patch请直接编辑 ([88dd034](https://github.com/amzxyz/rime_wanxiang/commit/88dd034c1b344b406b52d00fe1fc050f83adf2e5))
+* 反查新增乱序17选项 ([08753f4](https://github.com/amzxyz/rime_wanxiang/commit/08753f409a13357fe07ef31ca965e5b07f8b9456))
+* 梳理数据tips翻译部分在线提供不随zip打包 ([dcfbd3e](https://github.com/amzxyz/rime_wanxiang/commit/dcfbd3ec268f3f7b280ab7b7629c52cdd733e31b))
+* 超级提示 disabled type 匹配由排除集合改成非贪婪模式,修复"化学式"类型无法排除的问题 ([f9fd0d7](https://github.com/amzxyz/rime_wanxiang/commit/f9fd0d730892fb3016b0e762afd3d728ab265750))
+
+
+### 🏡 杂项
+
+* 修改说明 ([8217e68](https://github.com/amzxyz/rime_wanxiang/commit/8217e6887925ae519b137135c0c7eecfa5b23e64))
+
+## [12.6.6](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.5...v12.6.6) (2025-09-23)
+
+
+### 📚 词库更新
+
+* 词库调整 ([4fc713f](https://github.com/amzxyz/rime_wanxiang/commit/4fc713f4292f0da6d7fa6621de0d8430ec6d25db))
+
+## [12.6.5](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.4...v12.6.5) (2025-09-22)
+
+
+### 📚 词库更新
+
+* 词库调整 ([fd507bf](https://github.com/amzxyz/rime_wanxiang/commit/fd507bf70747420aeafccd573b4abcf4b66d7a14))
+
+
+### 🐛 Bug 修复
+
+* 部分英文加括号兜底候选保证\后面时时有输出 ([8871808](https://github.com/amzxyz/rime_wanxiang/commit/8871808a65f8b6d4226309bd7e5e58650a3e0495))
+
+
+### 🏡 杂项
+
+* 说明变更 ([9145376](https://github.com/amzxyz/rime_wanxiang/commit/914537685ed357e419d70b87253871d06e1b031e))
+
 ## [12.6.4](https://github.com/amzxyz/rime_wanxiang/compare/v12.6.3...v12.6.4) (2025-09-21)
 
 
